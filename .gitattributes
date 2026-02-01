@@ -1,2 +1,9 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
+
+# Define que arquivos CSS e JS não devem contar na estatística de linguagem
+*.css linguist-vendored
+*.js linguist-vendored
+
+# Garante que o SQL seja detectado como principal
+*.sql linguist-detectable=true
